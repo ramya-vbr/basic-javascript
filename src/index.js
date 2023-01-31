@@ -4,12 +4,13 @@ import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import Basic from "./component/Basic";
-import BasicExample from "./example/BasicExample";
+// import BasicExample from "./example/BasicExample";
+import Jsconst from "./example/Jsconst";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BasicExample />
+    <Jsconst />
   </React.StrictMode>
 );
 
