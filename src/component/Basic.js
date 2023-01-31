@@ -7,6 +7,9 @@ function Basic() {
   useEffect(() => {
     setInterval(() => setTodayDate(new Date()), 1000);
   }, []);
+  // const handleClick = () => {
+  //   setTodayDate(todayDate);
+  // };
   return (
     <div>
       <h1>Basic Javascript Date and Time </h1>
@@ -26,6 +29,7 @@ function Basic() {
         })}
       </p>
       {/* <p>{todayDate}</p> */}
+      {/* <button onClick={() => handleClick}>click me !</button> */}
     </div>
   );
 }

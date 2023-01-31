@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Basic from "./component/Basic";
+// import Basic from "./component/Basic";
+import BasicExample from "./example/BasicExample";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Basic />
+    <BasicExample />
   </React.StrictMode>
 );
 
