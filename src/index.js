@@ -6,11 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 // import Basic from "./component/Basic";
 // import BasicExample from "./example/BasicExample";
 // import Functioneg from "./example/Functioneg";
-import String from "./example/String";
+// import String from "./example/String";
+import StringSearch from "./example/StringSearch";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <String />
+    <StringSearch />
   </React.StrictMode>
 );
 
