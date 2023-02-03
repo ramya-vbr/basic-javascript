@@ -5,12 +5,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import Basic from "./component/Basic";
 // import BasicExample from "./example/BasicExample";
-import Functioneg from "./example/Functioneg";
-
+// import Functioneg from "./example/Functioneg";
+import String from "./example/String";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Functioneg />
+    <String />
   </React.StrictMode>
 );
 
