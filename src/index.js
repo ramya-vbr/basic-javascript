@@ -10,11 +10,12 @@ import reportWebVitals from "./reportWebVitals";
 // import TemplateLiterals from "./example/TemplateLiterals";
 // import StringSearch from "./example/StringSearch";
 // import JsNumber from "./example/JsNumber";
-import JsNumberMethod from "./example/JsNumberMethod";
+// import JsNumberMethod from "./example/JsNumberMethod";
+import JsArray from "./example/JsArray";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <JsNumberMethod />
+    <JsArray />
   </React.StrictMode>
 );
 
