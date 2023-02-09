@@ -13,11 +13,12 @@ import reportWebVitals from "./reportWebVitals";
 // import JsNumberMethod from "./example/JsNumberMethod";
 // import JsArray from "./example/JsArray";
 // import JsArrayMethod from "./example/JsArrayMethod";
-import JsArraySort from "./example/JsArraySort";
+// import JsArraySort from "./example/JsArraySort";
+import JsDates from "./example/JsDates";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <JsArraySort />
+    <JsDates />
   </React.StrictMode>
 );
 
